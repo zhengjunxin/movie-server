@@ -1,0 +1,8 @@
+if user && user.name
+  div
+    p You're logged in as #{user.name}
+    form(method="post", action="/api/v1/sigout")
+      button(type="submit") sigout
+else
+  p 请登录
+  a(href="/sigin") sigin

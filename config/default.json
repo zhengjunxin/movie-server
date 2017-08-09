@@ -1,0 +1,9 @@
+{
+    "port": 8000,
+    "dbUrl": "mongodb://localhost/movie-server",
+    "session": {
+        "secret": "default secret",
+        "maxAge": 60000
+    },
+    "saltRounds": 10
+}
